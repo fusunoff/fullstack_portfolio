@@ -1,0 +1,40 @@
+p {
+    color: white;
+    background-color: gray ;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h1
+  {
+   color: yellow;
+   background-color: black;
+   font-size: 230%;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+   font-weight: bolder;
+   text-shadow: 5px 2px 4px darkgray;
+   padding: 10px;
+   border: 3px goldenrod;
+}
+
+  /* How to style an id attribute */
+  #intro {
+      color: white;
+      background-color:navy;
+      font-style: italic;
+  }
+
+   /* How to style a class */
+
+.first { font-size: 200%; }
+
+/* How to style elements that are descendants of another element*/
+
+#intro .first em {
+    color: pink; 
+    background-color:gray;
+ }
